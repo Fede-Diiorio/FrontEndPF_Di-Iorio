@@ -1,0 +1,38 @@
+/* PRODUCTOS */
+
+.card {
+    border-radius: 1.5rem;
+    border: 2px solid var(--primarioOscuro);
+    transition: border 0.3s ease-in-out;
+
+    &:hover {
+        border: 2px solid var(--secundario);
+
+        .card-text {
+            border-bottom: 1px solid var(--secundario);
+        }
+    }
+
+    .card-text {
+        min-height: 13rem;
+        border-bottom: 1px solid var(--gris);
+        transition: border 0.3s ease-in-out;
+    }
+
+    .btn {
+        font-size: 1.6rem;
+    }
+
+    .precio {
+        font-size: 2rem;
+        font-weight: bold;
+        color: green;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .justify-content-sm-center {
+        justify-content: center;
+    }
+}
