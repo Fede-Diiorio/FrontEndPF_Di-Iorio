@@ -12101,8 +12101,11 @@ textarea {
 .footer .footer__contenedor .footer__menu ul li a p {
   padding: 0;
 }
-.footer .footer__contenedor .footer__menu ul li .footer__nav--active {
-  border-bottom: 2px solid #FFA500;
+.footer .footer__contenedor .footer__menu ul li a i {
+  font-size: 2rem;
+}
+.footer .footer__contenedor .footer__menu ul li .footer__nav--active i {
+  color: #FFA500;
 }
 
 @media (max-width: 1200px) {

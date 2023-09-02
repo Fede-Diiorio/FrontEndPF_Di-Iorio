@@ -65,10 +65,16 @@
                         p {
                             padding: 0;
                         }
+
+                        i {
+                            font-size: 2rem;
+                        }
                     }
 
                     .footer__nav--active {
-                        border-bottom: 2px solid $secundario;
+                        i {
+                            color: $secundario;
+                        }
                     }
                 }
             }
