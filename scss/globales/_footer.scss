@@ -94,6 +94,12 @@
 
         .footer__contenedor {
             display: block;
+
+            .footer__menu {
+                border-left: none;
+                margin-top: 2rem;
+            }
         }
+
     }
 }

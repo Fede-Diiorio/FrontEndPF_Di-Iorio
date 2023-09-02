@@ -12128,6 +12128,10 @@ textarea {
   .footer .footer__contenedor {
     display: block;
   }
+  .footer .footer__contenedor .footer__menu {
+    border-left: none;
+    margin-top: 2rem;
+  }
 }
 /* INDEX */
 .informacion-index {
@@ -12138,7 +12142,7 @@ textarea {
 }
 .informacion-index .informacion-index__img {
   height: 28.6rem;
-  border: var(--primarioOscuro) 1px solid;
+  border-radius: 2rem;
 }
 .informacion-index .informacion-index__texto {
   display: flex;
@@ -12314,7 +12318,7 @@ textarea {
   display: flex;
   justify-content: space-between;
   padding: 0.25rem;
-  border-radius: 0.5rem;
+  border-radius: 1.5rem;
   margin-bottom: 1rem;
   background-color: var(--primario);
   border: 1px solid var(--primarioOscuro);
@@ -12327,6 +12331,9 @@ textarea {
 }
 .formulario-servicios .formulario-servicios__form .formulario-servicios__condicion input {
   margin-right: 1rem;
+}
+.formulario-servicios .formulario-servicios__form .formulario-servicios__condicion label {
+  padding-left: 1rem;
 }
 .formulario-servicios .formulario-servicios__form .formulario-servicios__textarea {
   display: flex;
