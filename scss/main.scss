@@ -1,16 +1,16 @@
+// BOOTSTRAP
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 // VARIABLES Y GLOBALES
+@import './globales/globales';
+@import './globales/header';
+@import './globales/header-internas';
+@import './globales/footer';
 
 // ESTILOS PERSONALIZADO
-@import './pages/globales';
-@import './pages/header';
-@import './pages/header-internas';
-@import './pages/footer';
 @import './pages/index';
 @import './pages/nosotros';
 @import './pages/servicios';
 @import './pages/productos';
 @import './pages/descargas';
 @import './pages/contacto';
-
-// BOOTSTRAP
-@import "../node_modules/bootstrap/scss/bootstrap";
