@@ -1,0 +1,88 @@
+:root {
+
+    --primario: #40798C;
+    --primarioOscuro: #1F363D;
+    --secundario: #FFA500;
+    --secundarioOscuro: #FF6200;
+    --terceario: #603140;
+    --blanco: #ffffff;
+    --negro: #000000;
+    --gris: #b1adad;
+    --grisOscuro: #3d3d3d;
+
+}
+
+/* TIPOGRAFIAS */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Source+Sans+3:wght@300;400;900&display=swap');
+
+/* GLOBALES */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    empty-cells: show;
+    margin: 3rem 0;
+}
+
+body {
+    background-color: var(--primario);
+    color: var(--blanco);
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.25rem;
+}
+
+h5 {
+    font-size: 1.9rem;
+}
+
+p,
+a,
+input,
+label,
+textarea {
+    font-size: 1.6rem;
+    font-family: 'Source Sans 3', sans-serif;
+    line-height: 2;
+}
+
+.boton,
+.btn {
+    background-color: var(--primario);
+    color: var(--blanco);
+    text-decoration: none;
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 1rem;
+    border: none;
+    display: inline;
+    max-width: 13rem;
+    border: 1px solid var(--primarioOscuro);
+    transition: color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.boton:hover,
+.btn:hover {
+    background-color: var(--secundario);
+    color: var(--primarioOscuro);
+}
