@@ -1,7 +1,5 @@
-/* FOOTER */
-
 .footer {
-    background-color: var(--primarioOscuro);
+    background-color: $primarioOscuro;
     margin-top: 4rem;
 
     p {
@@ -33,12 +31,12 @@
 
         .footer__menu {
 
-            border-left: 1px solid var(--secundario);
+            border-left: 1px solid $secundario;
             padding-left: 2rem;
 
             h5 {
                 font-weight: bold;
-                color: var(--secundario);
+                color: $secundario;
             }
 
             ul {
@@ -55,13 +53,13 @@
                         display: flex;
                         align-items: center;
                         gap: 2rem;
-                        color: var(--blanco);
+                        color: $blanco;
                         text-decoration: none;
                         font-size: 2rem;
                         transition: color 0.3s ease-in-out;
 
                         &:hover {
-                            color: var(--secundario);
+                            color: $secundario;
                         }
 
                         p {
@@ -70,7 +68,7 @@
                     }
 
                     .footer__nav--active {
-                        border-bottom: 2px solid var(--secundario);
+                        border-bottom: 2px solid $secundario;
                     }
                 }
             }

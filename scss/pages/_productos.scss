@@ -1,21 +1,19 @@
-/* PRODUCTOS */
-
 .card {
     border-radius: 1.5rem;
-    border: 2px solid var(--primarioOscuro);
+    border: 2px solid $primarioOscuro;
     transition: border 0.3s ease-in-out;
 
     &:hover {
-        border: 2px solid var(--secundario);
+        border: 2px solid $secundario;
 
         .card-text {
-            border-bottom: 1px solid var(--secundario);
+            border-bottom: 1px solid $secundario;
         }
     }
 
     .card-text {
         min-height: 13rem;
-        border-bottom: 1px solid var(--gris);
+        border-bottom: 1px solid $gris;
         transition: border 0.3s ease-in-out;
     }
 

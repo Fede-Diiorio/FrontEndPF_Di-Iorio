@@ -1,5 +1,7 @@
+@import './variantes';
+
 .header {
-    background-color: var(--primarioOscuro);
+    background-color: $primarioOscuro;
     position: sticky;
     top: 0;
     z-index: 2;
@@ -14,12 +16,12 @@
 
         .nav-link {
             font-size: 1.8rem;
-            color: var(--blanco);
+            color: $blanco;
             font-weight: bold;
             transition: color 0.3s ease-in-out;
 
             &:hover {
-                color: var(--secundario);
+                color: $secundario;
             }
 
         }
@@ -27,11 +29,11 @@
         .navbar-toggler {
             border-radius: 100%;
             padding: 1rem;
-            border: 1px solid var(--gris);
+            border: 1px solid $gris;
         }
 
         .header__nav--activo {
-            border-bottom: 3px solid var(--secundario);
+            border-bottom: 3px solid $secundario;
             padding-bottom: .25rem;
         }
     }

@@ -24,19 +24,19 @@
 
             .nav-link {
                 font-size: 1.8rem;
-                color: var(--blanco);
+                color: $blanco;
                 font-weight: bold;
                 transition: color 0.3s ease-in-out;
 
                 &:hover {
-                    color: var(--secundario);
+                    color: $secundario;
                 }
             }
         }
     }
 
     .header-index__titulo {
-        color: var(--blanco);
+        color: $blanco;
         text-align: start;
         margin-top: 60vh;
     }
@@ -44,7 +44,7 @@
     .navbar-toggler {
         border-radius: 100%;
         padding: 1rem;
-        border: 1px solid var(--gris);
+        border: 1px solid $gris;
     }
 }
 

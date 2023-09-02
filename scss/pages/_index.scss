@@ -1,5 +1,3 @@
-/* INDEX */
-
 .informacion-index {
     display: flex;
     justify-content: space-between;
@@ -26,7 +24,7 @@
         text-decoration: none;
 
         .cartas__carta {
-            background-color: var(--primario);
+            background-color: $primario;
             width: 21rem;
             min-height: 28.7rem;
             margin: auto;
@@ -35,37 +33,37 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            border: 2px solid var(--primarioOscuro);
-            box-shadow: 9px 9px 15px 6px var(--grisOscuro);
+            border: 2px solid $primarioOscuro;
+            box-shadow: 9px 9px 15px 6px $grisOscuro;
             transition: border 0.3s ease-in-out;
 
             &:hover {
-                border: 2px solid var(--secundario);
+                border: 2px solid $secundario;
 
                 i {
-                    background-color: var(--secundario);
+                    background-color: $secundario;
                 }
             }
 
             h5 {
                 font-weight: bold;
-                color: var(--blanco);
+                color: $blanco;
             }
 
             i {
                 font-size: 3rem;
-                background-color: var(--primarioOscuro);
+                background-color: $primarioOscuro;
                 width: 100%;
                 display: block;
                 text-align: center;
                 box-sizing: border-box;
                 padding: 1rem 2rem;
                 transition: background-color 0.3s ease-in-out;
-                color: var(--blanco);
+                color: $blanco;
             }
 
             p {
-                color: var(--blanco);
+                color: $blanco;
                 padding: 1.35rem;
             }
         }

@@ -1,12 +1,10 @@
-/* CONTACTO */
-
 .form {
-    background-color: var(--primarioOscuro);
+    background-color: $primarioOscuro;
     padding: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-radius: 2rem;
-    box-shadow: 9px 12px 20px 8px var(--negro);
+    box-shadow: 9px 12px 20px 8px $negro;
     grid-template-areas:
         "nombre apellido"
         "email telefono"
@@ -58,12 +56,12 @@
             height: 3rem;
             width: 100%;
             border-radius: 1rem;
-            border: 1px solid var(--primario);
+            border: 1px solid $primario;
         }
 
         textarea {
             border-radius: 1rem;
-            border: 1px solid var(--secundario);
+            border: 1px solid $secundario;
         }
     }
 
