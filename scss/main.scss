@@ -6,11 +6,11 @@
 @import './assets/globales';
 @import './assets/extend';
 @import './assets/tipografias';
-@import './assets/header';
-@import './assets/header-internas';
-@import './assets/footer';
 
 // ESTILOS PERSONALIZADO
+@import './pages/header';
+@import './pages/header-internas';
+@import './pages/footer';
 @import './pages/index';
 @import './pages/nosotros';
 @import './pages/servicios';
