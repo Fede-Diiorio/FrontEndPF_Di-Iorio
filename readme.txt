@@ -1,3 +1,5 @@
+COMANDOS PARA GIT y GITHUB
+
 1. Crear repositorio
 2. Ponerle un nombre con - o _
 3. abrir visual studio
@@ -9,12 +11,12 @@
 9. git branch -M main
 10. git push -u origin main
 
-_________NORMAL_______________
+COMMITS y ACTUALIZACIONES
 1. git add .
 2. git commit -m "mensaje"
 3. git push
 
-________RAMAS_____________
+CREACION DE NUEVAS RAMAS
 git checkout ajuste
 git add .
 git commit -m "mensaje"
