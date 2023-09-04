@@ -1,4 +1,4 @@
-@import './variantes';
+@import './extend';
 
 .header {
     background-color: $primarioOscuro;
@@ -14,17 +14,7 @@
             width: 12.5rem;
         }
 
-        .nav-link {
-            font-size: 1.8rem;
-            color: $blanco;
-            font-weight: bold;
-            transition: color 0.3s ease-in-out;
-
-            &:hover {
-                color: $secundario;
-            }
-
-        }
+        @extend %links-navegacion;
 
         .navbar-toggler {
             border-radius: 100%;

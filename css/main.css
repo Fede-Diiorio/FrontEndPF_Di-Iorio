@@ -5,7 +5,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Source+Sans+3:wght@300;400;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Source+Sans+3:wght@300;400;900&display=swap");
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11874,11 +11873,20 @@ textarea.form-control-lg {
   transition: color 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
 }
-
 .boton:hover,
 .btn:hover {
   background-color: #FFA500;
   color: #1F363D;
+}
+
+.header .navbar .nav-link, .header-index .header-index__barra nav .nav-link {
+  font-size: 1.8rem;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+.header .navbar .nav-link:hover, .header-index .header-index__barra nav .nav-link:hover {
+  color: #FFA500;
 }
 
 body {
@@ -11923,6 +11931,16 @@ textarea {
   line-height: 2;
 }
 
+.header .navbar .nav-link, .header-index .header-index__barra nav .nav-link {
+  font-size: 1.8rem;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+.header .navbar .nav-link:hover, .header-index .header-index__barra nav .nav-link:hover {
+  color: #FFA500;
+}
+
 .header-index {
   background-image: url("../img/fondo.jpg");
   height: 100vh;
@@ -11939,15 +11957,6 @@ textarea {
 }
 .header-index .header-index__barra nav .navbar-brand img {
   max-width: 30rem;
-}
-.header-index .header-index__barra nav .nav-link {
-  font-size: 1.8rem;
-  color: #ffffff;
-  font-weight: bold;
-  transition: color 0.3s ease-in-out;
-}
-.header-index .header-index__barra nav .nav-link:hover {
-  color: #FFA500;
 }
 .header-index .header-index__titulo {
   color: #ffffff;
@@ -11995,6 +12004,16 @@ textarea {
     font-size: 4rem;
   }
 }
+.header .navbar .nav-link, .header-index .header-index__barra nav .nav-link {
+  font-size: 1.8rem;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+.header .navbar .nav-link:hover, .header-index .header-index__barra nav .nav-link:hover {
+  color: #FFA500;
+}
+
 .header {
   background-color: #1F363D;
   position: sticky;
@@ -12007,15 +12026,6 @@ textarea {
 }
 .header .navbar img {
   width: 12.5rem;
-}
-.header .navbar .nav-link {
-  font-size: 1.8rem;
-  color: #ffffff;
-  font-weight: bold;
-  transition: color 0.3s ease-in-out;
-}
-.header .navbar .nav-link:hover {
-  color: #FFA500;
 }
 .header .navbar .navbar-toggler {
   border-radius: 100%;

@@ -19,10 +19,9 @@
     border: 1px solid $primarioOscuro;
     transition: color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
-}
 
-.boton:hover,
-.btn:hover {
-    background-color: $secundario;
-    color: $primarioOscuro;
+    &:hover {
+        background-color: $secundario;
+        color: $primarioOscuro;
+    }
 }

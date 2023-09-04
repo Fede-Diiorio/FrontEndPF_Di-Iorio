@@ -1,3 +1,5 @@
+@import './extend';
+
 .header-index {
     background-image: url('../img/fondo.jpg');
     height: 100vh;
@@ -22,16 +24,7 @@
                 }
             }
 
-            .nav-link {
-                font-size: 1.8rem;
-                color: $blanco;
-                font-weight: bold;
-                transition: color 0.3s ease-in-out;
-
-                &:hover {
-                    color: $secundario;
-                }
-            }
+            @extend %links-navegacion;
         }
     }
 
