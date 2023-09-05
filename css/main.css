@@ -12186,10 +12186,11 @@ textarea {
   align-items: center;
   border: 2px solid #1F363D;
   box-shadow: 9px 9px 15px 6px #3d3d3d;
-  transition: border 0.3s ease-in-out;
+  transition: all 0.5s;
 }
 .cartas a .cartas__carta:hover {
   border: 2px solid #FFA500;
+  transform: scale(1.05);
 }
 .cartas a .cartas__carta:hover i {
   background-color: #FFA500;
@@ -12381,13 +12382,20 @@ textarea {
 .card {
   border-radius: 1.5rem;
   border: 2px solid #1F363D;
-  transition: border 0.3s ease-in-out;
+  overflow: hidden;
+}
+.card img {
+  transform: scale(1);
+  transition: transform 0.5s ease-in-out;
 }
 .card:hover {
   border: 2px solid #FFA500;
 }
 .card:hover .card-text {
   border-bottom: 1px solid #FFA500;
+}
+.card:hover img {
+  transform: scale(1.05);
 }
 .card .card-text {
   min-height: 13rem;
@@ -12400,7 +12408,7 @@ textarea {
 .card .precio {
   font-size: 2rem;
   font-weight: bold;
-  color: green;
+  color: #16a816;
 }
 
 @media (max-width: 320px) {

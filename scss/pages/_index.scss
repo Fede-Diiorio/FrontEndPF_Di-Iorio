@@ -35,10 +35,11 @@
             align-items: center;
             border: 2px solid $primarioOscuro;
             box-shadow: 9px 9px 15px 6px $grisOscuro;
-            transition: border 0.3s ease-in-out;
+            transition: all .5s;
 
             &:hover {
                 border: 2px solid $secundario;
+                transform: scale(1.05);
 
                 i {
                     background-color: $secundario;
