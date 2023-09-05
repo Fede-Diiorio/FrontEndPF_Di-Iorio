@@ -1,4 +1,4 @@
-@import './extend';
+@import '../assets/extend';
 
 .header-index {
     background-image: url('../img/fondo.jpg');
@@ -18,13 +18,16 @@
     .header-index__barra {
 
         nav {
+
+            display: flex;
+
             .navbar-brand {
                 img {
                     max-width: 30rem;
                 }
             }
 
-            @extend %links-navegacion;
+            @extend .nav-link;
         }
     }
 
