@@ -12439,6 +12439,11 @@ textarea {
   padding: 0 1rem;
   border-radius: 2rem;
   background-color: #1F363D;
+  border: 1px solid #1F363D;
+  transition: border 0.3s ease-in-out;
+}
+.descargas .descargas__categorias .descargas__enlaces .descargas__descarga:hover {
+  border: 1px solid #FFA500;
 }
 .descargas .descargas__categorias .descargas__enlaces .descargas__descarga img {
   width: 3.5rem;

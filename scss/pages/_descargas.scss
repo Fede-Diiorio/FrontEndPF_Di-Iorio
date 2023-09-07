@@ -23,6 +23,12 @@
                 padding: 0 1rem;
                 border-radius: 2rem;
                 background-color: $primarioOscuro;
+                border: 1px solid $primarioOscuro;
+                transition: border 0.3s ease-in-out;
+
+                &:hover {
+                    border: 1px solid $secundario;
+                }
 
                 img {
                     width: 3.5rem;
