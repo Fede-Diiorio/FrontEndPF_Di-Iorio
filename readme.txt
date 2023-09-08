@@ -27,11 +27,12 @@ git merge ajuste
 git push
 _______________________________
 
-//COMO EMPEZAR A COMPILAR SASS//
+//COMO INSTALAR SASS PARA EL CORRECTO FUNCIONAMIENTO DE ESTE PROYECTO//
 
 1. Abrir la consola en esta carpeta con ctrl+ñ
     a. npm install nodemon node-sass
     b. npm init // Metralleta de enter
+    c. npm i bootstrap@5.3.1
 
 2. Abrir el archivo package.json y editarlo
     a. A continuación de && exit 1" colocar una , presionar enter
@@ -42,12 +43,13 @@ _______________________________
 
 3. Crear las carpetas con sus respectivos archivos
     a. scss/main.scss
-    b. css/style.css
+    b. css/main.css
 
 4. En la consola correr el comando
     a. npm run build-css //Por única vez
     b. npm run watch-css
 
+--------------------------------------------
 
 5. Cada vez que se quiera seguir compilando en SASS
     a. abrir la consola con ctrl+ñ
