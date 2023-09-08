@@ -1,7 +1,9 @@
 El proyecto cuenta con SASS aplicado y la totalidad de los estilos ha sido desarrollados en scss.
 Dicho código se encuentra completamente anidado y se han implemetados las practicas vistas en clase.
 
-Se ha aplicado también las medias de SEO en todos los archivos HTML
+Se ha aplicado también las medias de SEO en todos los archivos HTML y se han utilizado imagenes comprimidas para mejorar el rendimiento.
+
+Si bien se han aplicado animaciones en todos los archivos html las más destacables se encuentran en la sección de cartas del index.html y en las cartas de productos.html.
 
 <-- ALGUNAS PRECISIONES -->
 
