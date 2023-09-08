@@ -41,7 +41,7 @@ _______________________________
 "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
 "watch-css": "nodemon -e scss -x \"npm run build-css\""
 
-3. Crear las carpetas con sus respectivos archivos
+3. Crear las carpetas con sus respectivos archivos (EN CASO DE REQUERIRSE)
     a. scss/main.scss
     b. css/main.css
 
