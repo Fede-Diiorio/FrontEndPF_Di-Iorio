@@ -9305,6 +9305,10 @@ textarea.form-control-lg {
   padding: 0;
   font-size: 10px; }
 
+body {
+  background-color: #40798C;
+  color: #ffffff; }
+
 .boton,
 .btn {
   background-color: #40798C;
@@ -9325,10 +9329,6 @@ textarea.form-control-lg {
     background-color: #FFA500;
     color: #1F363D; }
 
-body {
-  background-color: #40798C;
-  color: #ffffff; }
-
 h1, .h1, h2, .h2, h3, .h3 {
   font-family: "Oswald", sans-serif;
   text-align: center;
@@ -9344,7 +9344,7 @@ h2, .h2 {
 h3, .h3 {
   font-size: 2.25rem; }
 
-h5, .h5 {
+h4, .h4 {
   font-size: 1.9rem; }
 
 p,
@@ -9486,7 +9486,7 @@ textarea {
     .footer .footer__contenedor .footer__menu {
       border-left: 1px solid #FFA500;
       padding-left: 2rem; }
-      .footer .footer__contenedor .footer__menu h5, .footer .footer__contenedor .footer__menu .h5 {
+      .footer .footer__contenedor .footer__menu h4, .footer .footer__contenedor .footer__menu .h4 {
         font-weight: bold;
         color: #FFA500; }
       .footer .footer__contenedor .footer__menu ul {
@@ -9560,7 +9560,7 @@ textarea {
         transform: scale(1.05); }
         .cartas a .cartas__carta:hover i {
           background-color: #FFA500; }
-      .cartas a .cartas__carta h5, .cartas a .cartas__carta .h5 {
+      .cartas a .cartas__carta h4, .cartas a .cartas__carta .h4 {
         font-weight: bold;
         color: #ffffff; }
       .cartas a .cartas__carta i {
