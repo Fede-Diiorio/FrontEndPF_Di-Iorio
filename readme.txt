@@ -1,4 +1,15 @@
-COMANDOS PARA GIT y GITHUB
+El proyecto cuenta con SASS aplicado y la totalidad de los estilos ha sido desarrollados en scss.
+Dicho código se encuentra completamente anidado y se han implemetados las practicas vistas en clase.
+
+Se ha aplicado también las medias de SEO en todos los archivos HTML
+
+<-- ALGUNAS PRECISIONES -->
+
+Este proyecto se encaró con la idea de poder ser utilizado con los conocimientos que se iran adquinieron a lo largo de la carrera de Full Stack. 
+Es por eso que algunos de los html, como por ejemplo servicios.html o productos.html, son meramente ilustrativos.
+A medida que vaya adquiriendo los conocimientos pertinentes de JavaScript y backend se iran aplicando en este trabajo
+
+<-- COMANDOS PARA GIT y GITHUB -->
 
 1. Crear repositorio
 2. Ponerle un nombre con - o _
@@ -27,7 +38,7 @@ git merge ajuste
 git push
 _______________________________
 
-//COMO INSTALAR SASS PARA EL CORRECTO FUNCIONAMIENTO DE ESTE PROYECTO//
+<-- COMO INSTALAR SASS PARA EL CORRECTO FUNCIONAMIENTO DE ESTE PROYECTO -->
 
 1. Abrir la consola en esta carpeta con ctrl+ñ
     a. npm install nodemon node-sass
