@@ -10,11 +10,12 @@
     ;
 
     .parrafo-imagen {
-        background-image: url('../img/nosotros2.jpg');
+        background-image: url('../img/nosotros2.webp');
         height: 100%;
         background-position: center;
         background-size: cover;
         grid-area: parrafo-imagen;
+        border-radius: 2rem;
     }
 
     .parrafo-1 {

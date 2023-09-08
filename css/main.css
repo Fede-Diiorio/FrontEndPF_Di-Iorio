@@ -12002,7 +12002,7 @@ textarea {
     margin-top: 30vh;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .header-index .header-index__titulo {
     margin-top: 40vh;
   }
@@ -12160,6 +12160,7 @@ textarea {
 .informacion-index .informacion-index__img {
   height: 28.6rem;
   border-radius: 2rem;
+  border: 2px solid #1F363D;
 }
 .informacion-index .informacion-index__texto {
   display: flex;
@@ -12250,11 +12251,12 @@ textarea {
   grid-template-areas: "parrafo-1 parrafo-imagen" "parrafo-2 parrafo-imagen" "parrafo-3 parrafo-3";
 }
 .nosotros__contenido .parrafo-imagen {
-  background-image: url("../img/nosotros2.jpg");
+  background-image: url("../img/nosotros2.webp");
   height: 100%;
   background-position: center;
   background-size: cover;
   grid-area: parrafo-imagen;
+  border-radius: 2rem;
 }
 .nosotros__contenido .parrafo-1 {
   grid-area: parrafo-1;
@@ -12323,6 +12325,8 @@ textarea {
 }
 .formulario-servicios .formulario-servicios__img {
   width: 100%;
+  border-radius: 2rem;
+  border: 1px solid #1F363D;
 }
 .formulario-servicios .formulario-servicios__form {
   display: flex;
@@ -12382,6 +12386,7 @@ textarea {
 .card {
   border-radius: 1.5rem;
   border: 2px solid #1F363D;
+  transition: border 0.3s ease-in-out;
   overflow: hidden;
 }
 .card img {
@@ -12439,11 +12444,11 @@ textarea {
   padding: 0 1rem;
   border-radius: 2rem;
   background-color: #1F363D;
-  border: 1px solid #1F363D;
+  border: 2px solid #1F363D;
   transition: border 0.3s ease-in-out;
 }
 .descargas .descargas__categorias .descargas__enlaces .descargas__descarga:hover {
-  border: 1px solid #FFA500;
+  border: 2px solid #FFA500;
 }
 .descargas .descargas__categorias .descargas__enlaces .descargas__descarga img {
   width: 3.5rem;
@@ -12517,11 +12522,11 @@ textarea {
   height: 3rem;
   width: 100%;
   border-radius: 1rem;
-  border: 1px solid #40798C;
+  border: 2px solid #40798C;
 }
 .form .form__campo textarea {
   border-radius: 1rem;
-  border: 1px solid #FFA500;
+  border: 2px solid #40798C;
 }
 .form .form__campo-contactado {
   display: flex;

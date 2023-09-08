@@ -1,6 +1,7 @@
 .card {
     border-radius: 1.5rem;
     border: 2px solid $primarioOscuro;
+    transition: border 0.3s ease-in-out;
     overflow: hidden;
 
     img {
