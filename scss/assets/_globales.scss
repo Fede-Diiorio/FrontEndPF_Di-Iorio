@@ -9,6 +9,14 @@ body {
     color: $blanco;
 }
 
+.marco {
+    background-color: $primario;
+    border: 2px solid $primarioOscuro;
+    border-radius: 2rem;
+    padding: 2rem;
+    box-shadow: 9px 9px 15px 6px $grisOscuro;
+}
+
 .boton,
 .btn {
     background-color: $primario;
@@ -21,12 +29,14 @@ body {
     border: none;
     display: inline;
     max-width: 13rem;
-    border: 1px solid $primarioOscuro;
+    border: 2px solid $primarioOscuro;
     transition: color 0.3s ease-in-out;
+    transition: border 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
 
     &:hover {
         background-color: $secundario;
         color: $primarioOscuro;
+        border: 2px solid $secundario;
     }
 }

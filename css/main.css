@@ -9309,6 +9309,13 @@ body {
   background-color: #40798C;
   color: #ffffff; }
 
+.marco {
+  background-color: #40798C;
+  border: 2px solid #1F363D;
+  border-radius: 2rem;
+  padding: 2rem;
+  box-shadow: 9px 9px 15px 6px #3d3d3d; }
+
 .boton,
 .btn {
   background-color: #40798C;
@@ -9321,13 +9328,15 @@ body {
   border: none;
   display: inline;
   max-width: 13rem;
-  border: 1px solid #1F363D;
+  border: 2px solid #1F363D;
   transition: color 0.3s ease-in-out;
+  transition: border 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out; }
   .boton:hover,
   .btn:hover {
     background-color: #FFA500;
-    color: #1F363D; }
+    color: #1F363D;
+    border: 2px solid #FFA500; }
 
 h1, .h1, h2, .h2, h3, .h3 {
   font-family: "Oswald", sans-serif;
@@ -9537,9 +9546,13 @@ textarea {
     flex-direction: column;
     justify-content: center; }
 
+.informacion-index__boton {
+  text-align: end;
+  margin-top: 2rem; }
+
 .cartas {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); }
+  display: flex;
+  justify-content: space-between; }
   .cartas a {
     text-decoration: none; }
     .cartas a .cartas__carta {
@@ -9603,7 +9616,7 @@ textarea {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 2rem;
-  grid-template-areas: "parrafo-1 parrafo-imagen" "parrafo-2 parrafo-imagen" "parrafo-3 parrafo-3"; }
+  grid-template-areas: "parrafo-1 parrafo-imagen" "parrafo-2 parrafo-imagen" "parrafo-3 parrafo-3" "parrafo-4 parrafo-4" "parrafo-5 parrafo-5"; }
   .nosotros__contenido .parrafo-imagen {
     background-image: url("../img/nosotros2.webp");
     height: 100%;
@@ -9617,6 +9630,10 @@ textarea {
     grid-area: parrafo-2; }
   .nosotros__contenido .parrafo-3 {
     grid-area: parrafo-3; }
+  .nosotros__contenido .parrafo-4 {
+    grid-area: parrafo-4; }
+  .nosotros__contenido .parrafo-5 {
+    grid-area: parrafo-5; }
 
 .carousel-item img {
   max-width: 100rem;

@@ -7,6 +7,8 @@
         "parrafo-1 parrafo-imagen"
         "parrafo-2 parrafo-imagen"
         "parrafo-3 parrafo-3"
+        "parrafo-4 parrafo-4"
+        "parrafo-5 parrafo-5"
     ;
 
     .parrafo-imagen {
@@ -28,6 +30,14 @@
 
     .parrafo-3 {
         grid-area: parrafo-3;
+    }
+
+    .parrafo-4 {
+        grid-area: parrafo-4;
+    }
+
+    .parrafo-5 {
+        grid-area: parrafo-5;
     }
 
 }
