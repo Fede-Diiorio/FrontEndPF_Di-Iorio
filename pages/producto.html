@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-        <meta name="keywords"
-            content="informatica, computadora, tecnología, servicio tecnico, notebook, repuestos, productos, SyS PC">
-        <meta name="description"
-            content="En SyS PC te damos acceso a un espectro de productos informaticos para personalizar o armar tu computadora. Obten el repuesto que estás buscando.">
-        <link rel="icon" href="../img/SysPcIcono.png" type="image/x-icon">
-        <link rel="stylesheet" href="../css/main.css">
-        <title>Productos | SyS PC</title>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <meta name="keywords"
+        content="informatica, computadora, tecnología, servicio tecnico, notebook, repuestos, productos, SyS PC">
+    <meta name="description"
+        content="En SyS PC te damos acceso a un espectro de productos informaticos para personalizar o armar tu computadora. Obten el repuesto que estás buscando.">
+    <link rel="icon" href="../img/SysPcIcono.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Productos | SyS PC</title>
+</head>
+
 <body>
-    
+
     <header class="header">
         <div class="container">
 
@@ -54,17 +56,27 @@
     </header>
 
     <main>
+        <div class="producto-individual container marco">
 
-        <img src="../img/productoGenerico.jpg" alt="">
-        <h2>Producto Informatico</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque sapiente iure vitae deleniti ab odio?</p>
-        <p>$$$$$$</p>
-        <form method="get">
-            <label for="cantidad">Cantidad:</label>
-            <input type="number" id="cantidad" name="cantidad" min="1" max="100" step="1" value="1">
-            <input type="submit" value="Comprar">
-        </form>
-    
+            <img class="producto-individual__imagen" src="../img/productoGenerico.jpg" alt="">
+
+            <div class="producto-individual__informacion">
+                <h2>Producto Informatico</h2>
+                <p class="producto-individual__descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Saepe harum, tempora nisi doloremque error laboriosam corrupti blanditiis illum eveniet, officia
+                    unde facilis doloribus laborum officiis non ut illo id consequatur!
+                </p>
+                <p class="precio">$$$$$$</p>
+                <form class="producto-individual__form" method="get">
+                    <div class="producto-individual__cantidad">
+                        <label for="cantidad">Cantidad:</label>
+                        <input type="number" id="cantidad" name="cantidad" min="1" max="100" step="1" value="1">
+                    </div>
+                    <input type="submit" value="Comprar" class="boton">
+                </form>
+            </div>
+        </div>
+
     </main>
 
     <footer class="footer">
@@ -189,4 +201,5 @@
         </script>
 
 </body>
+
 </html>

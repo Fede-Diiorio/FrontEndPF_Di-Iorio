@@ -9338,6 +9338,11 @@ body {
     color: #1F363D;
     border: 2px solid #FFA500; }
 
+.precio {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #16a816; }
+
 h1, .h1, h2, .h2, h3, .h3 {
   font-family: "Oswald", sans-serif;
   text-align: center;
@@ -9756,6 +9761,31 @@ textarea {
 @media (max-width: 320px) {
   .justify-content-sm-center {
     justify-content: center; } }
+
+.producto-individual {
+  display: flex;
+  margin-top: 3rem;
+  gap: 2rem; }
+  .producto-individual .producto-individual__imagen {
+    height: 45.6rem;
+    border-radius: 2rem;
+    border: 2px solid #1F363D; }
+  .producto-individual .producto-individual__informacion .producto-individual__descripcion {
+    min-height: 12rem;
+    border-bottom: 1px solid #FFA500;
+    margin-bottom: 2rem; }
+  .producto-individual .producto-individual__informacion .precio {
+    background-color: #ffffff;
+    display: inline;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: 1px solid #FFA500;
+    margin-top: 2rem; }
+  .producto-individual .producto-individual__informacion .producto-individual__form {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem; }
 
 .descargas {
   display: grid;

@@ -1,0 +1,38 @@
+.producto-individual {
+    display: flex;
+    margin-top: 3rem;
+    gap: 2rem;
+
+    .producto-individual__imagen {
+        height: 45.6rem;
+        border-radius: 2rem;
+        border: 2px solid $primarioOscuro;
+    }
+
+    .producto-individual__informacion {
+
+        .producto-individual__descripcion {
+            min-height: 12rem;
+            border-bottom: 1px solid $secundario;
+            margin-bottom: 2rem;
+        }
+
+        .precio {
+            background-color: $blanco;
+            display: inline;
+            padding: 1rem 2rem;
+            border-radius: 1rem;
+            border: 1px solid $secundario;
+            margin-top: 2rem;
+        }
+
+        .producto-individual__form {
+            margin-top: 5rem;
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+    }
+
+
+}
