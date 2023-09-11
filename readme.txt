@@ -8,8 +8,8 @@ Si bien se han aplicado animaciones en todos los archivos html las más destacab
 <-- ALGUNAS PRECISIONES -->
 
 Este proyecto se encaró con la idea de poder ser utilizado con los conocimientos que se iran adquinieron a lo largo de la carrera de Full Stack. 
-Es por eso que algunos de los html, como por ejemplo servicios.html o productos.html, son meramente ilustrativos.
-A medida que vaya adquiriendo los conocimientos pertinentes de JavaScript y backend se iran aplicando en este trabajo
+Es por eso que algunos de los html, puntualmente servicios.html, productos.html y producto.html, son meramente ilustrativos.
+A medida que vaya adquiriendo los conocimientos pertinentes de JavaScript y backend se iran aplicando en este trabajo.
 
 <-- COMANDOS PARA GIT y GITHUB -->
 
@@ -54,7 +54,7 @@ _______________________________
 "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
 "watch-css": "nodemon -e scss -x \"npm run build-css\""
 
-3. Crear las carpetas con sus respectivos archivos (EN CASO DE REQUERIRSE)
+3. Crear las carpetas con sus respectivos archivos (EN CASO NO SE REQUIERE)
     a. scss/main.scss
     b. css/main.css
 

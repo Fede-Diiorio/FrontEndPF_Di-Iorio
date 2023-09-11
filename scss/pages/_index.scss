@@ -15,14 +15,11 @@
         flex-direction: column;
         justify-content: center;
     }
-
 }
 
 .informacion-index__boton {
-
     text-align: end;
     margin-top: 2rem;
-
 }
 
 .cartas {
@@ -110,6 +107,14 @@
 }
 
 @media (max-width: 768px) {
+
+    .informacion-index__texto {
+        p {
+            &:nth-last-child(-n+2) {
+                display: none;
+            }
+        }
+    }
 
     .encuentranos {
         display: none;

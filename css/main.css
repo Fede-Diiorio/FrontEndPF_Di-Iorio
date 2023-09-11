@@ -9613,6 +9613,8 @@ textarea {
       margin-bottom: 2rem; } }
 
 @media (max-width: 768px) {
+  .informacion-index__texto p:nth-last-child(-n+2) {
+    display: none; }
   .encuentranos {
     display: none; } }
 
@@ -9803,6 +9805,12 @@ textarea {
         border: none;
         padding-left: 1rem;
         outline: none; }
+
+@media (max-width: 1024px) {
+  .producto-individual {
+    flex-direction: column; }
+    .producto-individual .producto-individual__imagen {
+      height: 100%; } }
 
 .descargas {
   display: grid;

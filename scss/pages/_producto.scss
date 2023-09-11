@@ -56,6 +56,14 @@
             }
         }
     }
+}
 
+@media (max-width: 1024px) {
+    .producto-individual {
+        flex-direction: column;
 
+        .producto-individual__imagen {
+            height: 100%;
+        }
+    }
 }
