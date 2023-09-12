@@ -27,21 +27,46 @@
                 }
             }
 
+            .navbar-toggler {
+                border-radius: 100%;
+                padding: 1rem;
+                border: 1px solid $gris;
+            }
+
             @extend .nav-link;
         }
     }
 
     .header-index__titulo {
-        color: $blanco;
-        text-align: start;
-        margin-top: 60vh;
+        background-color: $primarioOscuro;
+        margin-top: 25vh;
+        padding: 2rem;
+        position: relative;
+        z-index: 2;
+
+        .header-index__h1 {
+            color: $blanco;
+            text-align: center;
+            margin: 0 auto;
+        }
     }
 
-    .navbar-toggler {
-        border-radius: 100%;
-        padding: 1rem;
-        border: 1px solid $gris;
+    .header-index__boton {
+        background-color: $blanco;
+        max-width: 25rem;
+        padding: 4rem 2rem 3rem 2rem;
+        border-radius: 2rem;
+        margin-top: -2rem;
+        text-align: center;
+        z-index: 1;
+
+        .boton {
+            font-size: 2rem;
+            padding: 1rem 3rem;
+        }
+
     }
+
 }
 
 @media (max-width: 1024px) {

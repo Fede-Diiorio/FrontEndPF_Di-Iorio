@@ -9402,14 +9402,31 @@ textarea {
     display: flex; }
     .header-index .header-index__barra nav .navbar-brand img {
       max-width: 30rem; }
+    .header-index .header-index__barra nav .navbar-toggler {
+      border-radius: 100%;
+      padding: 1rem;
+      border: 1px solid #b1adad; }
   .header-index .header-index__titulo {
-    color: #ffffff;
-    text-align: start;
-    margin-top: 60vh; }
-  .header-index .navbar-toggler {
-    border-radius: 100%;
-    padding: 1rem;
-    border: 1px solid #b1adad; }
+    background-color: #1F363D;
+    margin-top: 25vh;
+    padding: 2rem;
+    position: relative;
+    z-index: 2; }
+    .header-index .header-index__titulo .header-index__h1 {
+      color: #ffffff;
+      text-align: center;
+      margin: 0 auto; }
+  .header-index .header-index__boton {
+    background-color: #ffffff;
+    max-width: 25rem;
+    padding: 4rem 2rem 3rem 2rem;
+    border-radius: 2rem;
+    margin-top: -2rem;
+    text-align: center;
+    z-index: 1; }
+    .header-index .header-index__boton .boton {
+      font-size: 2rem;
+      padding: 1rem 3rem; }
 
 @media (max-width: 1024px) {
   .header-index .header-index__difuminado {
