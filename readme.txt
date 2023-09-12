@@ -8,7 +8,9 @@ Si bien se han aplicado animaciones en todos los archivos html las más destacab
 <-- ALGUNAS PRECISIONES -->
 
 Este proyecto se encaró con la idea de poder ser utilizado con los conocimientos que se iran adquinieron a lo largo de la carrera de Full Stack. 
-Es por eso que algunos de los html, puntualmente servicios.html, productos.html y producto.html, son meramente ilustrativos.
+Es por eso que algunos de los html, puntualmente servicios.html, productos.html y producto.html, son meramente ilustrativos. 
+En lo que se refiere específicamente a producto.html, se han utilizado imágenes y textos genéricos. Esto se hizo con el fin de darle estilo a la página, puesto que la 
+información y las imágenes serán inyectadas más adelante mediante el manejo de la base de datos.
 A medida que vaya adquiriendo los conocimientos pertinentes de JavaScript y backend se iran aplicando en este trabajo.
 
 <-- COMANDOS PARA GIT y GITHUB -->
