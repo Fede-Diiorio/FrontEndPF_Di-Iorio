@@ -74,39 +74,41 @@
                     <form class="formulario-servicios__form" method="get">
 
                         <!-- Campo -->
-                        <div class="formulario-servicios__condicion">
+                        <div class="formulario-servicios__condicion" onclick="toggleInput('limpieza')">
                             <label for="">Limpieza interna</label>
-                            <input type="checkbox" name="limpieza">
+                            <input type="checkbox" id="limpieza" name="limpieza" onclick="toggleInput('limpieza')">
                         </div>
 
                         <!-- Campo -->
-                        <div class="formulario-servicios__condicion">
+                        <div class="formulario-servicios__condicion" onclick="toggleInput('pasta')">
                             <label for="">Cambio de pasta térmica</label>
-                            <input type="checkbox" name="pasta">
+                            <input type="checkbox" id="pasta" name="pasta" onclick="toggleInput('pasta')">
                         </div>
 
                         <!-- Campo -->
-                        <div class="formulario-servicios__condicion">
+                        <div class="formulario-servicios__condicion" onclick="toggleInput('bisagras')">
                             <label for="">Desajuste de Bisagras</label>
-                            <input type="checkbox" name="bisagras">
+                            <input type="checkbox" id="bisagras" name="bisagras" onclick="toggleInput('bisagras')">
                         </div>
 
                         <!-- Campo -->
-                        <div class="formulario-servicios__condicion">
+                        <div class="formulario-servicios__condicion" onclick="toggleInput('optimizacion')">
                             <label for="">Optimización de sistema</label>
-                            <input type="checkbox" name="optimizacion">
+                            <input type="checkbox" id="optimizacion" name="optimizacion"
+                                onclick="toggleInput('optimizacion')">
                         </div>
 
                         <!-- Campo -->
-                        <div class="formulario-servicios__condicion">
+                        <div class="formulario-servicios__condicion" onclick="toggleInput('reinstalacion')">
                             <label for="">Reinstalación de sistema</label>
-                            <input type="checkbox" name="reinstalacion">
+                            <input type="checkbox" id="reinstalacion" name="reinstalacion"
+                                onclick="toggleInput('reinstalacion')">
                         </div>
 
                         <!-- Campo -->
-                        <div class="formulario-servicios__condicion">
+                        <div class="formulario-servicios__condicion" onclick="toggleInput('programas')">
                             <label for="">Instalación de programas</label>
-                            <input type="checkbox" name="programas">
+                            <input type="checkbox" id="programas" name="programas" onclick="toggleInput('programas')">
                         </div>
 
                         <!-- Campo -->
@@ -134,40 +136,43 @@
                     <form class="formulario-servicios__form">
 
                         <!-- Campo -->
-                        <div class="formulario-servicios__condicion">
+                        <div class="formulario-servicios__condicion" onclick="toggleInput('programas-oficina')">
                             <label for="">Programas de oficina</label>
-                            <input type="checkbox" name="">
+                            <input type="checkbox" id="programas-oficina" name="programas-oficina"
+                                onclick="toggleInput('programas-oficina')">
                         </div>
 
                         <!-- Campo -->
-                        <div class="formulario-servicios__condicion">
+                        <div class="formulario-servicios__condicion" onclick="toggleInput('photoshop')">
                             <label for="">Photoshop</label>
-                            <input type="checkbox" name="">
+                            <input type="checkbox" id="photoshop" name="photoshop" onclick="toggleInput('photoshop')">
                         </div>
 
                         <!-- Campo -->
-                        <div class="formulario-servicios__condicion">
+                        <div class="formulario-servicios__condicion" onclick="toggleInput('illustrator')">
                             <label for="">Illustrator</label>
-                            <input type="checkbox" name="">
+                            <input type="checkbox" id="illustrator" name="illustrator"
+                                onclick="toggleInput('illustrator')">
                         </div>
 
                         <!-- Campo -->
-                        <div class="formulario-servicios__condicion">
+                        <div class="formulario-servicios__condicion" onclick="toggleInput('sketchup')">
                             <label for="">SketchUp</label>
-                            <input type="checkbox" name="">
+                            <input type="checkbox" id="sketchup" name="sketchup" onclick="toggleInput('sketchup')">
                         </div>
 
                         <!-- Campo -->
-                        <div class="formulario-servicios__condicion">
+                        <div class="formulario-servicios__condicion" onclick="toggleInput('autocad')">
                             <label for="">AutoCAD</label>
-                            <input type="checkbox" name="">
+                            <input type="checkbox" id="autocad" name="autocad" onclick="toggleInput('autocad')">
                         </div>
 
                         <!-- Campo -->
-                        <div class="formulario-servicios__condicion">
+                        <div class="formulario-servicios__condicion" onclick="toggleInput('lumion')">
                             <label for="">Lumion</label>
-                            <input type="checkbox" name="">
+                            <input type="checkbox" id="lumion" name="lumion" onclick="toggleInput('lumion')">
                         </div>
+
 
                         <!-- Campo -->
                         <div class="formulario-servicios__textarea">
@@ -309,6 +314,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
         </script>
+
+    <script src="../js/app.js"></script>
 
 </body>
 
