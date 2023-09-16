@@ -9735,6 +9735,29 @@ textarea {
     .formulario-servicios .formulario-servicios__img {
       display: none; } }
 
+.barra-filtro {
+  border-bottom: 2px solid #FFA500;
+  border-top: 1px solid #1F363D;
+  margin-bottom: 3rem;
+  padding: 1rem; }
+  .barra-filtro .barra-filtro__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; }
+    .barra-filtro .barra-filtro__nav .barra-filtro__items {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      margin: 0;
+      padding: 0;
+      list-style-type: none; }
+      .barra-filtro .barra-filtro__nav .barra-filtro__items .barra-filtro__item .barra-filtro__enlace {
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold; }
+
 .card {
   border-radius: 1.5rem;
   border: 2px solid #1F363D;

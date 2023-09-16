@@ -1,3 +1,37 @@
+.barra-filtro {
+    border-bottom: 2px solid $secundario;
+    border-top: 1px solid $primarioOscuro;
+    margin-bottom: 3rem;
+    padding: 1rem;
+
+    .barra-filtro__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .barra-filtro__items {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+
+            .barra-filtro__item {
+                .barra-filtro__enlace {
+                    color: $blanco;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .barra-filtro__busqueda {}
+    }
+}
+
 .card {
     border-radius: 1.5rem;
     border: 2px solid $primarioOscuro;
