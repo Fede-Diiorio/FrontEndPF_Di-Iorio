@@ -1,9 +1,10 @@
-El proyecto cuenta con SASS aplicado y la totalidad de los estilos ha sido desarrollados en scss.
-Dicho código se encuentra completamente anidado y se han implemetados las practicas vistas en clase.
+<-- RESPECTO A LA ENTREGA -->
 
-Se ha aplicado también las medias de SEO en todos los archivos HTML y se han utilizado imagenes comprimidas para mejorar el rendimiento.
+Para la entrega final se aplicaron todos los conocimientos que se fueron adquiriendo a lo largo del curso. 
+Sumando a esto último y para esta entrega en específico, se agregó la documentación pertinente. 
+Esta documentación consta de el análisis de requerimientos, el cronograma de trabajo y el presupuesto para el proyecto de SyS PC.
 
-Si bien se han aplicado animaciones en todos los archivos html las más destacables se encuentran en la sección de cartas del index.html y en las cartas de productos.html.
+Puedes econtrar este trabajo accediendo a: http://syspc.free.nf/
 
 <-- ALGUNAS PRECISIONES -->
 
