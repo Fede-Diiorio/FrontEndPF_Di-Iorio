@@ -8,8 +8,7 @@
     grid-template-areas:
         "nombre apellido"
         "email telefono"
-        "fecha fecha"
-        "mensaje mensaje"
+        "fecha asunto"
         "mensaje mensaje"
         "contactado contactado"
     ;
@@ -32,6 +31,10 @@
 
     .form__fecha {
         grid-area: fecha;
+    }
+
+    .form__asunto {
+        grid-area: asunto;
     }
 
     .form__mensaje {

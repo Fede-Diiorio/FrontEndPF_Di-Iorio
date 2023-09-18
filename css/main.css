@@ -9915,7 +9915,7 @@ textarea {
   grid-template-columns: 1fr 1fr;
   border-radius: 2rem;
   box-shadow: 9px 12px 20px 8px #000000;
-  grid-template-areas: "nombre apellido" "email telefono" "fecha fecha" "mensaje mensaje" "mensaje mensaje" "contactado contactado"; }
+  grid-template-areas: "nombre apellido" "email telefono" "fecha asunto" "mensaje mensaje" "contactado contactado"; }
   .form .form__nombre {
     grid-area: nombre; }
   .form .form__apellido {
@@ -9926,6 +9926,8 @@ textarea {
     grid-area: telefono; }
   .form .form__fecha {
     grid-area: fecha; }
+  .form .form__asunto {
+    grid-area: asunto; }
   .form .form__mensaje {
     grid-area: mensaje; }
   .form .form__contactado {
