@@ -61,48 +61,48 @@
 
         <div class="container">
 
-            <form action="form.php" method="POST" class="form">
+            <form action="../php/form.php" method="POST" class="form">
 
                 <!-- Campo -->
                 <div class="form__campo form__nombre">
                     <label for="">Nombre:</label>
-                    <input type="text" placeholder="Tu nombre">
+                    <input type="text" name="nombre" placeholder="Tu nombre">
                 </div>
 
                 <!-- Campo -->
                 <div class="form__campo form__apellido">
                     <label for="">Apellido:</label>
-                    <input type="text" placeholder="Tu nombre">
+                    <input type="text" name="apellido" placeholder="Tu nombre">
                 </div>
 
                 <!-- Campo -->
                 <div class="form__campo form__email">
                     <label for="">Email:</label>
-                    <input type="email" placeholder="Tu Email">
+                    <input type="email" name="email" placeholder="Tu Email">
                 </div>
 
                 <!-- Campo -->
                 <div class="form__campo form__telefono">
                     <label for="">Teléfono:</label>
-                    <input type="tel" placeholder="Tu teléfono">
+                    <input type="tel" name="telefono" placeholder="Tu teléfono">
                 </div>
 
                 <!-- Campo -->
                 <div class="form__campo form__fecha">
                     <label for="">Fecha:</label>
-                    <input type="date">
+                    <input type="date" name="fecha">
                 </div>
 
                 <!-- Campo -->
                 <div class="form__campo form__asunto">
                     <label for="">Asunto:</label>
-                    <input type="text" placeholder="Asunto del mensaje">
+                    <input type="text" name="asunto" placeholder="Asunto del mensaje">
                 </div>
 
                 <!-- Campo -->
                 <div class="form__campo form__mensaje">
                     <label for="">Mensaje:</label>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
+                    <textarea name="" id="" cols="30" rows="10" name="mensaje" placeholder="Tu mensaje"></textarea>
                 </div>
 
                 <!-- Campo -->
@@ -110,7 +110,7 @@
                     <p>¿Por qué medio le gustaría ser contactado?</p>
 
                     <div class="form__campo" form__>
-                        <label>Teléfono</label>
+                        <label>Whatsapp</label>
                         <input type="radio" name="contactado" value="telefono" />
                     </div>
                     <div class="form__campo" form__>

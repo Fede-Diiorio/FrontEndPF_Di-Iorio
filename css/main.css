@@ -9968,3 +9968,7 @@ textarea {
     display: block; }
     .form .form__campo-contactado .form__campo input {
       width: 3rem; } }
+
+.mensaje-enviado {
+  text-align: center;
+  margin-top: 7rem; }
