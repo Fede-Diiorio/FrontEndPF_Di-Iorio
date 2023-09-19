@@ -23,11 +23,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mensaje .= "El usuario desea ser contactado por correo electrónico.";
     }
 
-    $despinatario = 'fndiiorio@hotmail.com';
+    $destinatario = 'fndiiorio@hotmail.com';
     $asunto = 'Enviado desde SyS PC // ' . $asunto;
 
     //funcion mail
-    mail($despinatario, $asunto, utf8_decode($mensaje), $header);
+    mail($destinatario, $asunto, utf8_decode($mensaje), $header);
 
     //redirección al haber enviado el form 
     header('Location:../pages/exito.html');
