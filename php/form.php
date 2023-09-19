@@ -30,6 +30,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mail($despinatario, $asunto, utf8_decode($mensaje), $header);
 
     //redirección al haber enviado el form 
-    header('Location:exito.html');
+    header('Location:../pages/exito.html');
     exit;
 }
