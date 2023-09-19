@@ -17,6 +17,12 @@ body {
     box-shadow: 9px 9px 15px 6px $grisOscuro;
 }
 
+@media (max-width: 425px) {
+    .marco {
+        max-width: 90%;
+    }
+}
+
 .boton,
 .btn {
     background-color: $primario;

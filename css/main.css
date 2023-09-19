@@ -9316,6 +9316,10 @@ body {
   padding: 2rem;
   box-shadow: 9px 9px 15px 6px #3d3d3d; }
 
+@media (max-width: 425px) {
+  .marco {
+    max-width: 90%; } }
+
 .boton,
 .btn {
   background-color: #40798C;
